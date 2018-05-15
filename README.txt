@@ -1,7 +1,8 @@
+
 Information about the repository: The repository consists of four folders: code, input and output, scores
 
 code - It contains two files: createGrids.py and gridBased.py.
-createGrids.py is responsible for setting the grid sizes for an image to extract fatures.
+Grids in images.py is responsible for setting the grid sizes for an image to extract fatures.
 gridBased.py consists code for feature extraction of training and test images, building the classifier model and making the predictions.
 input - It contains the following files:
 train_wkt.csv - the WKT format of all the training images with its labels.
