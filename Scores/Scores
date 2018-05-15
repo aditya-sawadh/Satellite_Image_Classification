@@ -1,0 +1,87 @@
+########################################
+Grid Sizes
+########################################
+
+Grid 10 by 10 : 0.06760
+Grid 25 by 25 : 0.12
+Grid 28 by 28	0.17547
+Grid 30 by 30 : 0.17746 nestimators = 700, max_depth=10
+Grid 30 by 30 : 0.18196 nestimators = 1200, max_depth=20
+Grid 32 by 32 : 0.17917 
+Grid 32 by 32 : 0.17749 max_depth = 10, nestimators = 720
+Grid 35 by 35 : 0.16332
+Grid 50 by 50 : 0.14789
+
+
+########################################
+Bands
+########################################
+Grid Size = 30 by 30
+Nestimators = 1200, max_depth = 20
+
+M = 0.18034
+M + A = 0.17384
+A = 0.1756
+
+###########################################
+Classifiers :
+###############################################
+
+
+Random Forest = 0.15972
+Model Generation Time = 2.2959 seconds
+Average Prediction Time per image = 2.06 seconds
+
+XGBoost = 0.18196 
+Model Generation Time = 811.5913207530975 seconds
+Average Prediction Time per image = 2.4034593355405582 seconds
+
+Ensemble =  0.1456
+
+3 KNN = 0.13644
+Model Generation Time = 0.71
+Average Prediction Time per image = 2.38 seconds 
+
+5 KNN = 0.13489
+Model Generation Time = 0.69053 sec
+Average Prediction Time per image = 2.215 sec
+
+1 KNN = 0.14867
+Model Generation Time = 0.6625 sec
+Average Prediction Time per image =  2.7948836107631942 seconds
+
+#######################################################
+Learning rates variation
+########################################
+M image
+Grid Size = 30 by 30
+Nestimators = 1200, max_depth = 20
+
+Learning Rate 0.0001: 0.17790
+Learning Rate 0.001: 0.17037
+Learning Rate 0.01: 0.17659
+Learning Rate 0.015: 0.17928
+Learning Rate 0.02: 0.17896
+Learning Rate 0.1: 0.18034
+Learning Rate 0.15: 0.17721
+Learning Rate 0.2: 0.17977
+Learning Rate 0.3: 0.17951
+
+Grid Size = 30 by 30
+Learning rate = 0.1, max_depth = 20
+
+Nestimators = 600: 0.17834
+Nestimators = 700: 0.17824
+Nestimators = 800: 0.17955
+Nestimators = 900: 0.18043
+Nestimators = 1000: 0.17999
+Nestimators = 1100: 0.17939
+Nestimators = 1200: 0.18196
+Nestimators = 1300: 0.18066
+Nestimators = 1400: 0.18071
+Nestimators = 1500: 0.18053
+
+Grid Size = 30 by 30
+Learning rate = 0.1, n_estimators = 1200
+max_depth = 16: 0.17784
+max_depth = 24: 0.18070
