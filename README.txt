@@ -1,4 +1,6 @@
 
+This repository is for a kaggle project to locate and detect objects like roadways, waterbodies, vehicles, buildings etc. in multiband satellite images by DSTL (https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection). The project takes a feature extraction approach towards object classification by building a XGboost decision tree classifier to find objects in test images.
+
 Information about the repository: The repository consists of four folders: code, input and output, scores
 
 Code - It contains two files: CreateGrids.py and GridBased Classification.py.
