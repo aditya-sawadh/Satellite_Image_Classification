@@ -19,9 +19,10 @@ The repository consists of four folders: code, input and output, scores
 * Scores - This folder contains all the scores we got from using different classifiers and by tuning different parameters of the XGBoost model.
  
 ### Steps to run the program:
-* Get the three band and sixteen band data from here - https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/data and store it in the input folder.
-* Run the gridBased.py file. The code is currently set with configurations giving best results.
+* Get the three band and sixteen band data from the [Kaggle website](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection/data) and store it in the input folder
+* Run the gridBased.py file. The code is currently set with configurations giving best results
 * The output will be generated in the output folder as a csv file
+* Submit these files on [Kaggle](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) to get your score
 
 ### Methodology
 * **Objective**: The aim of this competition is to find the location of 10 features in the images - Buildings, Miscellaneous man-made
